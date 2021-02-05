@@ -57,7 +57,6 @@ public class Lesson_13 {
         ListNode next = l.get(index - 1);
         next.next = n == 1 ? null : l.get(index + 1);
         return l.get(0);
-
     }
 
 
